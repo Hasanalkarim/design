@@ -99,6 +99,8 @@ nav {
   }
   
   
+ 
+
 
 
 
@@ -145,6 +147,11 @@ nav {
   object-fit: cover;
 }
 
+
+
+
+
+/*  special*****************************************************/
 
 
 
@@ -247,11 +254,6 @@ p {
   line-height: 1.75rem;
 }
 
-.special__ratings {
-  margin-bottom: 1rem;
-  font-size: 1rem;
-  color: goldenrod;
-}
 
 .special__footer {
   display: flex;
@@ -268,9 +270,7 @@ p {
 
 
 
-
-
-
+/*  Blooooog  */
 
 
 .section__container {
@@ -335,5 +335,60 @@ p {
 .travel__content img {
   margin-top: 4rem;
   max-width: 300px;
+}
+
+
+
+
+
+/*  uploaded******************************  */
+
+
+.business__container .section__header {
+  max-width: 600px;
+  text-align: left;
+}
+
+.business__grid {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.business__card {
+  padding: 2rem;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.business__card:hover {
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.business__card p {
+  margin-bottom: 2rem;
+  color: var(--text-light);
+}
+
+.business__member {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.business__member img {
+  max-width: 40px;
+  border-radius: 100%;
+}
+
+.business__member__details h4 {
+  color: var(--text-dark);
+}
+
+.business__member__details p {
+  margin: 0;
 }
 
