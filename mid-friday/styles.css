@@ -99,3 +99,51 @@ nav {
   }
   
   
+
+
+
+
+.main{
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  margin-top: 134px;
+}
+
+.main p{
+  margin-top: 22px;
+
+}
+.mainText{
+  margin-top: 44px;
+}
+.mainText h1{
+  font-size: 65px;
+}
+.main button{
+  background-color: black;
+  color: #fff;
+  font-size: 20px;
+  width: 140px;
+  height: 40px;
+  margin-top: 22px;
+  border: none;
+
+}
+.main button:hover{
+  border: 2px solid black;
+  color: rgb(250, 9, 49);
+  font-weight: 600;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.main-banner{
+  margin-left: 5rem;
+  width: 626px;
+  height: 344px;
+  object-fit: cover;
+}
+
+
+
